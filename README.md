@@ -132,31 +132,14 @@ A estrutura de um Data Warehouse é composta por várias camadas e componentes f
 - **Data Mart:** Subconjunto do Data Warehouse, voltado para áreas específicas da organização, como vendas ou finanças.
 - **OLAP (Online Analytical Processing):** Ferramentas que permitem consultas multidimensionais e análises detalhadas.
 
-##### Classificação dos Data Warehouses
-
-Os Data Warehouses podem ser classificados com base em diversos critérios:
-
-- **Por Modelo de Dados:**
-  - **Modelo Estrela:** Dados organizados em uma tabela de fatos central conectada a tabelas de dimensões.
-  - **Modelo Floco de Neve:** Semelhante ao modelo estrela, mas com tabelas de dimensões normalizadas.
-  - **Modelo em Galáxia:** Vários modelos estrela interconectados.
-
-- **Por Arquitetura:**
-  - **Data Warehouse Centralizado:** Toda a integração e armazenamento de dados ocorre em um único repositório.
-  - **Data Warehouse Distribuído:** Dados são armazenados em múltiplos locais, mas apresentados de forma integrada.
-
-- **Por Implementação:**
-  - **On-Premises:** Data Warehouse instalado e gerenciado nas instalações da empresa.
-  - **Cloud-based:** Data Warehouse hospedado e gerenciado na nuvem, com acesso remoto.
-
-##### Benefícios do Data Warehouse
+##### Benefícios
 
 - **Melhoria na Tomada de Decisão:** Oferece uma visão consolidada e histórica dos dados, facilitando análises profundas e precisas.
 - **Eficiência nas Consultas:** Otimizado para consultas analíticas complexas, permitindo respostas rápidas a perguntas complexas.
 - **Integração de Dados:** Centraliza dados de diversas fontes, proporcionando uma única fonte de verdade.
 - **Armazenamento de Dados Históricos:** Permite a análise de dados ao longo do tempo, o que é útil para identificar tendências e padrões.
 
-##### Desvantagens do Data Warehouse
+##### Desvantagens
 
 - **Custo:** Implementar e manter um Data Warehouse pode ser caro, especialmente com soluções on-premises e em larga escala.
 - **Complexidade:** A construção e manutenção de um Data Warehouse envolve complexidade técnica e requer habilidades especializadas.
@@ -307,5 +290,5 @@ Deste modo os dados são extraídos e pré armazenados no `DW` sem tratamento pr
 | ----------- | ----------- |
 | `GIT` | [Guia sobre Git](/pages/git.md)|
 | `SQL` | [Guia Sobre SQL](https://taylor-count.medium.com/the-ultimate-sql-guide-8cf06ed67281) |
-| `Python` | [Guia sobre Python](/pages/python.md) |
+| `Python` | [Guia sobre Python](https://roadmap.sh/python) |
 | `AWS` | [Entendendo sobre os serviços da AWS](/pages/aws.md)|
